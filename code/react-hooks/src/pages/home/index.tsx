@@ -1,15 +1,24 @@
+import styles from './index.module.scss'
 import type React from 'react'
-import { Flex } from 'antd'
-import { useNavigate } from 'react-router'
+import { Card, Flex } from 'antd'
+import { Link } from 'react-router'
 import { Button } from 'antd'
 
 const Home: React.FC = () => {
-    const navigate = useNavigate()
     return (
         <>
-            <Flex gap="medium">
-                <Button onClick={() => navigate('/about')}>关于</Button>
-            </Flex>
+            <div className={styles.container}>
+                <div className={styles['title-box']}>
+                    <h1 className={styles['title']}>react setup</h1>
+                </div>
+                <Flex vertical>
+                    <Card title="这是一个示例卡片">
+                        <Link to="/about">
+                            <Button>关于</Button>
+                        </Link>
+                    </Card>
+                </Flex>
+            </div>
         </>
     )
 }
