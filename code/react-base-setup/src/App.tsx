@@ -1,7 +1,9 @@
+import SayHello from '@/components/SayHello/SayHello'
+
 function App() {
     return (
         <>
-            <section>hello react</section>
+            <SayHello />
         </>
     )
 }
