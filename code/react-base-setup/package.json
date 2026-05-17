@@ -12,6 +12,7 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "antd": "^6.4.2",
         "date-fns": "^4.1.0",
         "loglevel": "^1.9.2",
         "loglevel-plugin-prefix": "^0.8.4",

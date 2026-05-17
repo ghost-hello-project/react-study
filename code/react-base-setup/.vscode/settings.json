@@ -44,7 +44,9 @@
     "editor.rulers": [120],
     // 关闭形参显示
     "editor.inlayHints.enabled": "off",
+    // ts 使用本地
     "typescript.tsdk": "./node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
     // todo 配置
     // "todo-tree.filtering.excludeGlobs": [
     //     "**/third/**"
