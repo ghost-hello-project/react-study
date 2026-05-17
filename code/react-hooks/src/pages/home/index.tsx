@@ -9,7 +9,7 @@ const Home: React.FC = () => {
         <>
             <div className={styles.container}>
                 <div className={styles['title-box']}>
-                    <h1 className={styles['title']}>react setup</h1>
+                    <h1 className={styles['title']}>react hooks</h1>
                 </div>
                 <Flex vertical>
                     <Card title="这是一个示例卡片">

@@ -5,13 +5,11 @@
     .title-box {
         margin: 10px;
         padding: 5px;
-        background-color: gainsboro;
         display: flex;
         justify-content: center;
 
         .title {
             display: inline-block;
-            background-color: aqua;
         }
     }
 }
