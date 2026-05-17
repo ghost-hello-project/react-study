@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router'
 
 // 页面组件
-import Home from '@/pages/home/home'
-import About from '@/pages/about/about'
+import Home from '@/pages/home'
+import About from '@/pages/about'
 import NotFound from '@/pages/404'
 
 // 路由配置

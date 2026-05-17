@@ -46,7 +46,7 @@
     "editor.inlayHints.enabled": "off",
     // ts 使用本地
     "typescript.tsdk": "./node_modules/typescript/lib",
-    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.enablePromptUseWorkspaceTsdk": false,
     // todo 配置
     // "todo-tree.filtering.excludeGlobs": [
     //     "**/third/**"
