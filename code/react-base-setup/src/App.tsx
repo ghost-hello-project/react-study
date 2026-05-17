@@ -1,9 +1,10 @@
-import SayHello from '@/components/SayHello/SayHello'
+import router from './router/router'
+import { RouterProvider } from 'react-router'
 
 function App() {
     return (
         <>
-            <SayHello />
+            <RouterProvider router={router} />
         </>
     )
 }
