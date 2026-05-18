@@ -12,9 +12,9 @@ const Home: React.FC = () => {
                     <h1 className={styles['title']}>react hooks</h1>
                 </div>
                 <Flex vertical>
-                    <Card title="这是一个示例卡片">
-                        <Link to="/about">
-                            <Button>关于</Button>
+                    <Card title="hooks">
+                        <Link to="/hooks/base-hooks">
+                            <Button>基础 hooks</Button>
                         </Link>
                     </Card>
                 </Flex>

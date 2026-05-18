@@ -112,5 +112,6 @@
             "label": "format",
             "task": "format"
         }
-    ]
+    ],
+    "taskManager.favorites": ["react-hooks/Workspace/dev", "react-hooks/Workspace/format"]
 }

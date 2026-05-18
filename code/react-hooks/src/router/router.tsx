@@ -4,6 +4,8 @@ import { createBrowserRouter } from 'react-router'
 import Home from '@/pages/home'
 import About from '@/pages/about'
 import NotFound from '@/pages/404'
+import Hooks from '@/pages/hooks'
+import BaseHooks from '@/pages/hooks/base-hooks'
 
 // 路由配置
 const router = createBrowserRouter([
@@ -14,6 +16,16 @@ const router = createBrowserRouter([
     {
         path: '/about',
         element: <About />,
+    },
+    {
+        path: '/hooks',
+        element: <Hooks />,
+        children: [
+            {
+                path: 'base-hooks',
+                element: <BaseHooks />,
+            },
+        ],
     },
     {
         path: '*',
